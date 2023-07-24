@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haziq's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="heading">HI, I AM</h1>
+        <h1 class="heading">HAZIQ DANIAL</h1>
+        <br><br>
+        <p>THIS IS MY PERSONAL WEBSITE</p>
+    </section>
+
+    <section id="about">
+        <h1 class="heading">About Me</h1>
+        <div class="about">
+            <img src="images/aboutme.jpg" alt="My Pic">
+            <div class="name">
+                <h2>I'm Haziq Danial</h2>
+                <br>
+                <br>
+                <p><b>NAME:</b>MUHAMAD HAZIQ DANIAL BIN ZAHRIN<p>
+                <br>    
+                <P><b>AGE :</b>21 (15th JULY 2002)</P>
+                <br>
+                <P><b>HOBBY :</b>PLAYING FOOTBALL, PLAYING GAMES, AND WATCHING MOVIES</P>
+                <br>
+                <P><b>FAVOURITE FOOD :</b>MY MOM'S COOKING</P>
+                <br>
+                <P><b>ABLITIES :</b>GOOD AT SINGING</P>
+                <br>
+                <P><b>MOTTO :</b>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”– Malcolm X</P>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h1 class="heading">Education</h1>
+        <div class="columns">
+            <div class="box">
+                <h2>SMK Bukit Indah</h2>
+                <img src="images/logosmk.jpg">
+                <div class="text">
+                    <h3>2015-2019</h3>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Diploma In Information Management</h2>
+                <img src="images/logouitm.jpg">
+                <div class="text">
+                    <h4>2021-presents</h4>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h1 class="heading">Gallery</h1>
+        <input type="radio" name="Gallery" id="check1" checked>
+        <input type="radio" name="Gallery" id="check2">
+        <input type="radio" name="Gallery" id="check3">
+        <input type="radio" name="Gallery" id="check4">
+
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="top-content">
+            <label for="check1">All Photos</label>
+            <label for="check2">Family Photos</label>
+            <label for="check3">Friends Photos</label>
+            <label for="check4">Visited Photos</label>
+        </div>
+        <div>
+            <div class="photo-gallery">
+                <div class="pic place">
+                    <img src="images/vis2.JPG">
+                </div>
+                <div class="pic family">
+                    <img src="images/fam1.JPG">
+                </div>
+                <div class="pic friend">
+                    <img src="images/fr2.JPG">
+                </div>
+                <div class="pic place">
+                    <img src="images/vis1.JPG">
+                </div>
+                <div class="pic family">
+                    <img src="images/fam2.jpg">
+                </div>
+                <div class="pic friend">
+                    <img src="images/fr1.JPEG">
+                </div>
+                <div class="pic family">
+                    <img src="images/fam3.PNG">
+                </div>
+                <div class="pic friend">
+                    <img src="images/fr3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <div class="social media">
+            <div class="socialicons">
+        <a href="https://www.facebook.com/profile.php?id=100009102065566"><img src="images/fblogo.png" width="35px" style="padding-top: 1%;"></a>
+        <a href="https://www.instagram.com/haziqd4nial/"><img src="images/iglogo.png" width="35px" style="padding-top: 1%;"></a>
+        <a href="https://twitter.com/HaziqDaniyyal"><img src="images/twtlogo.png" width="35px" style="padding-top: 1%;"></a>
+            </div>
+        </div>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="message" id="message" cols="40" rows="2" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </section>
+</body>
+</html>
